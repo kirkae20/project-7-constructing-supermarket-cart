@@ -19,7 +19,7 @@ public class Lab7_queue {
         @Override
         public String toString() {
             String itemInfo;
-            itemInfo = getItemName() + "\t\t" + "$%.2f".formatted(getItemPrice());
+            itemInfo = getItemName() + "\t\t" + Double.toString(getItemPrice()); //"$%.2f".formatted(getItemPrice());
             return itemInfo;
         }
 
